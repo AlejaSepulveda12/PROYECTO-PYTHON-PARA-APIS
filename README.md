@@ -129,106 +129,14 @@ El dataset incluye 8 categorías principales:
 - **Matplotlib/Seaborn** - Visualización de datos
 - **Jupyter Notebook** - Desarrollo interactivo
 
-## 📁 Estructura del Proyecto
-
-```
-retail-sales-cleaning/
-│
-├── data/
-│   ├── raw/                    # Datos originales sin procesar
-│   │   └── retail_store_sales.csv
-│   └── processed/              # Datos limpios
-│       └── retail_store_sales_clean.csv
-│
-├── notebooks/
-│   ├── 01_exploratory_analysis.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   └── 03_final_analysis.ipynb
-│
-├── src/
-│   ├── data_cleaning.py        # Funciones de limpieza
-│   └── utils.py                # Utilidades generales
-│
-├── reports/
-│   ├── figures/                # Gráficos y visualizaciones
-│   └── data_quality_report.md  # Reporte de calidad
-│
-├── requirements.txt            # Dependencias del proyecto
-└── README.md                   # Este archivo
-```
-
-## 🚀 Instalación y Uso
-
-### Prerequisitos
-
-```bash
-Python 3.8+
-pip o conda
-```
-
-### Instalación
-
-1. Clonar el repositorio:
-```bash
-git clone https://github.com/tu-usuario/retail-sales-cleaning.git
-cd retail-sales-cleaning
-```
-
-2. Crear un entorno virtual:
-```bash
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-```
-
-3. Instalar dependencias:
-```bash
-pip install -r requirements.txt
-```
-
-4. Descargar el dataset:
-- Descargar desde [Kaggle](https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning)
-- Colocar `retail_store_sales.csv` en `data/raw/`
-
-### Ejecución
-
-```bash
-jupyter notebook notebooks/01_exploratory_analysis.ipynb
-```
-
-## 📈 Resultados Esperados
-
-Al finalizar el proyecto, se espera obtener:
-
-- ✅ Dataset limpio y validado listo para análisis
-- ✅ Documentación completa de decisiones de limpieza
-- ✅ Visualizaciones de patrones y tendencias
-- ✅ Reporte de calidad de datos antes/después
-- ✅ Código reutilizable para procesos ETL similares
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
 ## 📝 Licencia
 
 Este proyecto utiliza datos públicos de Kaggle. El código está disponible bajo licencia MIT.
 
 ## 👤 Autor
 
-**Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-
-## 🙏 Agradecimientos
-
-- Dataset original por [Ahmed Mohamed](https://www.kaggle.com/ahmedmohamed2003) en Kaggle
-- Comunidad de Data Science por recursos y mejores prácticas
+**DANIEL AVILA OTALORA**
+**LAURA ALEJANDRA SEPULVEDA**
 
 ---
 
